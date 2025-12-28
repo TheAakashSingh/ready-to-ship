@@ -1,0 +1,54 @@
+{
+  "name": "ready-to-ship",
+  "version": "1.0.0",
+  "description": "🚀 Validate a backend project before deployment like a senior engineer would. Comprehensive checks for env, auth, API, security, dependencies, and database configuration.",
+  "main": "src/cli.js",
+  "bin": {
+    "ready-to-ship": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "validation",
+    "backend",
+    "deployment",
+    "env",
+    "auth",
+    "api",
+    "readiness",
+    "security",
+    "dependencies",
+    "database",
+    "devops",
+    "ci-cd",
+    "pre-deployment",
+    "backend-validator",
+    "production-ready",
+    "code-review",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ready-to-ship.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ready-to-ship/issues"
+  },
+  "homepage": "https://github.com/yourusername/ready-to-ship#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
